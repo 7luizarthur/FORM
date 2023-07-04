@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serify';
+}
+
+body {
+    background: black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+
+.nav-bar a i{
+     color: #fff;
+     padding: 7px;
+}
+
+.nav-bar i:hover {
+    border-radius: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+   
+}
+
+
+.left-login {
+    width: 40%;
+    display: flex;
+
+}
+
+.left-login h1 {
+    color: #fff;
+    min-height: 25vh;
+}
+
+
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border-radius: 40px;
+    backdrop-filter: blur(15px);
+    border:2px solid rgba(255, 255, 255, 0.5);
+    margin-top: -16%;
+    
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 10px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+input:focus ~ label,
+input:valid ~label {
+    top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    padding: 0 35px o 5px;
+    color: #fff;
+}
+
+
+
+.inputbox i {
+    right: 8px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.forget a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.registrer  {
+    text-align: 40px;
+    margin: 25px 0 10px;
+    margin: 15px 0 15px;
+    color: #fff;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.registrer p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.registrer a:hover {
+  text-decoration: underline;
+}
+
+
